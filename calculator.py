@@ -132,8 +132,8 @@ for text, row, col, *args in button_texts:
             column=col,
             rowspan=rowspan,
             columnspan=colspan,
-            padx=5,
-            pady=5,
+            padx=0,
+            pady=0,
             sticky="nsew",
         )
     elif text == "=":
@@ -152,8 +152,8 @@ for text, row, col, *args in button_texts:
             column=col,
             rowspan=rowspan,
             columnspan=colspan,
-            padx=5,
-            pady=5,
+            padx=0,
+            pady=0,
             sticky="nsew",
         )
     elif text == "√":
@@ -172,8 +172,8 @@ for text, row, col, *args in button_texts:
             column=col,
             rowspan=rowspan,
             columnspan=colspan,
-            padx=5,
-            pady=5,
+            padx=0,
+            pady=0,
             sticky="nsew",
         )
     elif text == "x²":
@@ -192,8 +192,8 @@ for text, row, col, *args in button_texts:
             column=col,
             rowspan=rowspan,
             columnspan=colspan,
-            padx=5,
-            pady=5,
+            padx=0,
+            pady=0,
             sticky="nsew",
         )
     else:
@@ -212,8 +212,8 @@ for text, row, col, *args in button_texts:
             column=col,
             rowspan=rowspan,
             columnspan=colspan,
-            padx=5,
-            pady=5,
+            padx=0,
+            pady=0,
             sticky="nsew",
         )
 
